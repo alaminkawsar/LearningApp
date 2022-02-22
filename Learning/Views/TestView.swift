@@ -14,7 +14,8 @@ struct TestView: View {
     var body: some View {
         
         
-        if model.currentQuestion == nil {
+        if model.currentQuestion != nil {
+            
             VStack {
                 // Question Number
                 Text("Question \(model.currentQuestionIndex + 1) of \(model.currentModule?.test.questions.count ?? 0)")
@@ -27,6 +28,9 @@ struct TestView: View {
                 // Button
             }
             .navigationBarTitle("\(model.currentModule?.category ?? "") Test")
+        }
+        else {
+            Text("Question is over")
         }
         
        

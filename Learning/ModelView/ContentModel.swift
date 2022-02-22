@@ -111,9 +111,7 @@ class ContentModel: ObservableObject {
         // Set the current lesson
         currentLesson = currentModule!.content.lessons[currentLessonIndex]
         lessonDescription = addStyling(currentLesson!.explanation)
-        
-        
-        
+
     }
     
     func nextLesson() {
@@ -141,16 +139,16 @@ class ContentModel: ObservableObject {
         return currentLessonIndex + 1 < currentModule!.content.lessons.count
     }
     
-    func beginTest(_ moduleId:Int) {
+    func beginTest(_ moduleid:Int) {
         
         // Set the current module
-        beginModule(moduleId)
-        
+        beginModule(moduleid)
+                
         // Set the current question index
         currentQuestionIndex = 0
         
         // If there are questions, set the current questions to the first one
-        if currentModule?.test.questions.count ?? 0 == 0 {
+        if currentModule?.test.questions.count ?? 0 > 0 {
             currentQuestion = currentModule!.test.questions[currentQuestionIndex]
             
             // set the question content
