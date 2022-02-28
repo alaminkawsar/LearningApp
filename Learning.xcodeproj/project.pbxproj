@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D38F99027CD67D600D44BDB /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D38F98F27CD67D600D44BDB /* TestResultView.swift */; };
 		1D4A7F7B27BFB7C4009EE2CE /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4A7F7A27BFB7C4009EE2CE /* LearningApp.swift */; };
 		1D4A7F7D27BFB7C4009EE2CE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4A7F7C27BFB7C4009EE2CE /* HomeView.swift */; };
 		1D4A7F7F27BFB7C5009EE2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4A7F7E27BFB7C5009EE2CE /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D38F98F27CD67D600D44BDB /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
 		1D4A7F7727BFB7C4009EE2CE /* Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4A7F7A27BFB7C4009EE2CE /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		1D4A7F7C27BFB7C4009EE2CE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				1D6B80B427C24ED100DE723E /* ContentViewRow.swift */,
 				1D6B80B627C2756900DE723E /* ContentDetailView.swift */,
 				1DDC1A5A27C35F3400673855 /* CodeTextView.swift */,
+				1D38F98F27CD67D600D44BDB /* TestResultView.swift */,
 				1DFE446927C3F370004D829B /* TestView.swift */,
 				1DDC1A5E27C3707700673855 /* RectangleCard.swift */,
 			);
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DFE446A27C3F370004D829B /* TestView.swift in Sources */,
+				1D38F99027CD67D600D44BDB /* TestResultView.swift in Sources */,
 				1D4A7F7D27BFB7C4009EE2CE /* HomeView.swift in Sources */,
 				1D6B80B127C002A400DE723E /* HomeViewRow.swift in Sources */,
 				1D6B80B327C0CC1300DE723E /* ContentView.swift in Sources */,
