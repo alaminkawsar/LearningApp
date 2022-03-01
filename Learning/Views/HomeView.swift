@@ -38,7 +38,6 @@ struct HomeView: View {
                                         
                                     }
                                 
-            
                                 // Test Card
                                 NavigationLink (
                                     destination:
@@ -50,6 +49,10 @@ struct HomeView: View {
                                     selection: $model.currentTestSelected) {
                                         HomeViewRow(image: module.test.image, title: "\(module.category) Test", description: module.test.description, count: "\(module.test.questions.count) Lessons", time: module.test.time)
                                     }
+                                
+                                NavigationLink(destination: EmptyView()) {
+                                    EmptyView()
+                                }
                     
                             }
                             
