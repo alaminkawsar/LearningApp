@@ -11,6 +11,8 @@ struct RectangleCard: View {
     
     var color = Color.green
     
+    var abir_do: String?
+    
     var body: some View {
         Rectangle()
             .fill(color)

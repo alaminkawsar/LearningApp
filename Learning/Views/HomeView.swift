@@ -54,8 +54,7 @@ struct HomeView: View {
                                     EmptyView()
                                 }
                     
-                            }
-                            
+                            }                            
                         }
                     }
                     .accentColor(.black)
